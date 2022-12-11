@@ -248,10 +248,10 @@ public class frmProductos extends javax.swing.JInternalFrame {
     oDatos [3] = txtcantidad.getText();
     oDatos [4] = txttotal.getText();
     modelTablaProducto.addRow(oDatos);
-    Limpiar();
+    limpiar();
   }
   
-  public void Limpiar(){
+  public void limpiar(){
     txtcodigo.setText("");
     txtdescripcion.setText("");
     txtprecio.setText("");
